@@ -1,0 +1,53 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/text-alternatives": "off",
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "meta-charset-utf-8": "off",
+    "meta-viewport": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/paint": "off",
+    "detect-css-reflows/layout": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "disown-opener": "off",
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
+      }
+    ],
+    "button-type": "off"
+  }
+}
